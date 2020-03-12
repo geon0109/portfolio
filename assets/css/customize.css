@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#header .cust_avatar {
+  margin: 0;
+}
+
+.cust_tit{
+  margin: 0;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 980px) {
+  #header p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    #header p {
+      font-size: 1em;
+    }
+}
